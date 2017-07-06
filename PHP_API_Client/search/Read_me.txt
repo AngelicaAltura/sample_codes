@@ -1,4 +1,4 @@
-This php file is use to Search all tickets under a user with the specified External ID. 
+Use to Search all tickets under a user with the specified External ID. 
 
 Resource Zendesk Ticket: https://support.zendesk.com/agent/tickets/2723331
 
