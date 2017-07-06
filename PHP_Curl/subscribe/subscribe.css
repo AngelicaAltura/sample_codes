@@ -1,0 +1,23 @@
+#tblHead {
+    text-align: left
+}
+table {
+    width: 30%;
+   border: 1px solid black;
+}
+
+.colInput{
+    align-content:space-between;
+}
+
+#z_section {
+    width: 100%;
+}
+
+#locale {
+    width: 100%;
+}
+#z_user {
+     width: 100%;
+}
+
