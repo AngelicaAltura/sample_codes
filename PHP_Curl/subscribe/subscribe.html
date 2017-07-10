@@ -1,0 +1,48 @@
+<head>
+    <link rel="stylesheet" href="subscribe.css">
+</head>
+<div id="custom-form" class="main">
+    <form id="zFormer" method="post" action="http://localhost/phpclient/subscribe/subscribe.php" name="zFormer" enctype="multipart/form-data">
+        <table class="tbl_form">
+          <caption id="tblHead">Subscribed Section</caption>
+          <br>
+          <tr>
+            <td>
+                <label for="z_section">Section ID</label>
+            </td>
+            <td class="colInput">
+                <input type="text" name="z_section" id="z_section" value="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="z_locale">HC Locale</label>
+            </td>
+            <td class="colInput">
+                <select name="locale" id="locale">
+                  <option value="en-us" id="en">English</option>
+                  <option value="fr" id="fr">French</option>
+                  <option value="de" id="de">Dutch</option>
+                </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="z_user">User ID</label>
+            </td>
+            <td class="colInput">
+                <input type="text" name="z_user" id="z_user" value="" />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="colInput">
+                <input type="submit" value="SUBSCRIBE" />
+            </td>
+          </tr>
+        </table>
+        <br>
+        <p id="results">
+        </p>
+    </form>
+</div>
